@@ -1,0 +1,6 @@
+{
+    "scripts": {
+        "watch": "imba serve -o docs --pubdir . --baseurl /imba-github-pages-test index.html",
+        "build": "imba build -o docs --pubdir . --baseurl /imba-github-pages-test index.html"
+    }
+}
