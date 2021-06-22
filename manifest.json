@@ -1,0 +1,179 @@
+{"$$0$$":{
+  "exports": [],
+  "entryPoint": "serve.imba",
+  "bytes": 64650,
+  "source": "$$7$$",
+  "_": "output",
+  "path": "serve.js",
+  "type": "js",
+  "dependencies": [
+    "$$8$$"
+  ],
+  "hash": "EY5ARW0P",
+  "originalPath": "serve.__dist__.js"
+},
+"$$1$$":{
+  "exports": [
+    "HTML",
+    "URLS"
+  ],
+  "entryPoint": "app/index.html",
+  "bytes": 675,
+  "source": "$$9$$",
+  "_": "output",
+  "path": "index.html",
+  "public": true,
+  "type": "html",
+  "dependencies": [
+    "$$10$$",
+    "$$11$$"
+  ],
+  "hash": "B3NQNLLK",
+  "originalPath": "app/index.__dist__.html",
+  "url": "/myrepo/app/index.html"
+},
+"$$2$$":{
+  "exports": [],
+  "bytes": 4459,
+  "_": "output",
+  "path": "img/logo-4MXEBDEU.svg",
+  "public": true,
+  "url": "/myrepo/img/logo-4MXEBDEU.svg",
+  "type": "svg",
+  "dependencies": [],
+  "hash": "4MXEBDEU",
+  "ttl": 31536000,
+  "originalPath": "logo-4MXEBDEU.svg"
+},
+"$$3$$":{
+  "exports": [],
+  "bytes": 58056,
+  "source": "$$12$$",
+  "_": "output",
+  "path": "js/app/index.js.map",
+  "public": true,
+  "url": "/myrepo/js/app/index.js.map",
+  "type": "map",
+  "dependencies": [],
+  "hash": "KTPCFBMF"
+},
+"$$4$$":{
+  "exports": [],
+  "entryPoint": "app/index.imba",
+  "bytes": 38486,
+  "map": "$$3$$",
+  "source": "$$12$$",
+  "css": "$$5$$",
+  "_": "output",
+  "path": "js/app/index.js",
+  "public": true,
+  "url": "/myrepo/js/app/index.js",
+  "type": "js",
+  "dependencies": [],
+  "hash": "KTPCFBMF",
+  "originalPath": "app/index.__dist__.js"
+},
+"$$5$$":{
+  "bytes": 322,
+  "source": "$$12$$",
+  "_": "output",
+  "path": "css/app/index.css",
+  "public": true,
+  "url": "/myrepo/css/app/index.css",
+  "type": "css",
+  "dependencies": [],
+  "hash": "0VLPD9AK",
+  "originalPath": "app/index.__dist__.css"
+},
+"$$6$$":{
+  "_": "output",
+  "type": "css",
+  "public": true,
+  "path": "css/all.css",
+  "asset": "$$6$$",
+  "hash": "XWJOTREV",
+  "originalPath": "all.__dist__.css",
+  "url": "/myrepo/css/all.css"
+},
+"$$7$$":{
+  "bytes": 1734,
+  "_": "input",
+  "path": "serve.imba",
+  "js": "$$0$$"
+},
+"$$8$$":{
+  "bytes": 82,
+  "_": "input",
+  "path": "entry:app/index.html",
+  "asset": "$$1$$"
+},
+"$$9$$":{
+  "bytes": 563,
+  "_": "input",
+  "path": "app/index.html",
+  "js": "$$1$$"
+},
+"$$10$$":{
+  "bytes": 10,
+  "_": "input",
+  "path": "entry:__styles__"
+},
+"$$11$$":{
+  "bytes": 27,
+  "_": "input",
+  "path": "entry:app/index.imba?as=web",
+  "asset": "$$4$$"
+},
+"$$12$$":{
+  "bytes": 2376,
+  "_": "input",
+  "path": "app/index.imba",
+  "js": "$$4$$",
+  "css": "$$5$$",
+  "map": "$$3$$"
+},
+
+  "outputs": {
+    "serve.js": "$$0$$",
+    "index.html": "$$1$$",
+    "img/logo-4MXEBDEU.svg": "$$2$$",
+    "js/app/index.js.map": "$$3$$",
+    "js/app/index.js": "$$4$$",
+    "css/app/index.css": "$$5$$",
+    "css/all.css": "$$6$$"
+  },
+  "urls": {
+    "/myrepo/app/index.html": "$$1$$",
+    "/myrepo/img/logo-4MXEBDEU.svg": "$$2$$",
+    "/myrepo/js/app/index.js.map": "$$3$$",
+    "/myrepo/js/app/index.js": "$$4$$",
+    "/myrepo/css/app/index.css": "$$5$$",
+    "/myrepo/css/all.css": "$$6$$"
+  },
+  "mappings": {
+    "serve.imba": {
+      "src": "serve.imba",
+      "file": "serve.js"
+    },
+    "app/index.imba": {
+      "src": "app/index.imba",
+      "file": "js/app/index.js",
+      "url": "/myrepo/js/app/index.js"
+    }
+  },
+  "hash": "CDJLAKJY",
+  "srcdir": "..",
+  "outdir": ".",
+  "path": "manifest.json",
+  "main": "$$0$$",
+  "assets": [
+    "$$0$$",
+    "$$1$$",
+    "$$2$$",
+    "$$3$$",
+    "$$4$$",
+    "$$5$$",
+    "$$6$$"
+  ],
+  "css": "$$6$$"
+}
